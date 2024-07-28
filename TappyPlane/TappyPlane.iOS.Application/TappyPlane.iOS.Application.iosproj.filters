@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="TappyPlane.iOS">
+      <UniqueIdentifier>{adfc1bad-3c89-4b64-9624-ab3fa08036f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TappyPlane.iOS\Images.xcassets">
+      <UniqueIdentifier>{7570fa60-0512-4c83-a08e-9f37e21fb555}</UniqueIdentifier>
+      <Extensions>TappyPlane.iOS\Images.xcassets\*</Extensions>
+    </Filter>
+    <Filter Include="TappyPlane.iOS\Images.xcassets\AppIcon.appiconset">
+      <UniqueIdentifier>{91daab39-2f0a-445e-8ad6-beff02fd37bd}</UniqueIdentifier>
+      <Extensions>TappyPlane.iOS\Images.xcassets\AppIcon.appiconset\*</Extensions>
+    </Filter>
+    <Filter Include="TappyPlane.iOS\Supporting Files">
+      <UniqueIdentifier>{9d287582-6ad8-45c8-9980-75092021b4f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TappyPlane.iOS\Supporting Files\assest">
+      <UniqueIdentifier>{f929b749-16ff-433e-a879-43e7bcb66af3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TappyPlane.iOS\Supporting Files\assest\images">
+      <UniqueIdentifier>{bb67f752-4842-4c04-aa9f-78d184fb3748}</UniqueIdentifier>
+      <Extensions>TappyPlane.iOS\assets\images\*</Extensions>
+    </Filter>
+    <Filter Include="TappyPlane.iOS\Supporting Files\assest\maps">
+      <UniqueIdentifier>{754cb3c8-2a8f-4e06-99df-39886fee7db5}</UniqueIdentifier>
+      <Extensions>TappyPlane.iOS\assets\maps\*</Extensions>
+    </Filter>
+    <Filter Include="TappyPlane.iOS\Supporting Files\assest\objectfiles">
+      <UniqueIdentifier>{8663ccce-3b76-4ff5-9100-6d4e8713984a}</UniqueIdentifier>
+      <Extensions>TappyPlane.iOS\assets\objectfiles\*</Extensions>
+    </Filter>
+    <Filter Include="TappyPlane.iOS\Supporting Files\assest\sounds">
+      <UniqueIdentifier>{7763c36e-263b-4b4e-8558-9559ecf5cce3}</UniqueIdentifier>
+      <Extensions>TappyPlane.iOS\assets\sounds\*</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TappyPlane.iOS\AppDelegate.mm">
+      <Filter>TappyPlane.iOS</Filter>
+    </ClCompile>
+    <ClCompile Include="TappyPlane.iOS\GameViewController.mm">
+      <Filter>TappyPlane.iOS</Filter>
+    </ClCompile>
+    <ClCompile Include="TappyPlane.iOS\ios_native_app_glue.cpp">
+      <Filter>TappyPlane.iOS\Supporting Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TappyPlane.iOS\main.mm">
+      <Filter>TappyPlane.iOS\Supporting Files</Filter>
+    </ClCompile>
+    <ClInclude Include="TappyPlane.iOS\AppDelegate.h">
+      <Filter>TappyPlane.iOS</Filter>
+    </ClInclude>
+    <ClInclude Include="TappyPlane.iOS\GameViewController.h">
+      <Filter>TappyPlane.iOS</Filter>
+    </ClInclude>
+    <ClInclude Include="TappyPlane.iOS\ios_native_app_glue.h">
+      <Filter>TappyPlane.iOS\Supporting Files</Filter>
+    </ClInclude>
+    <Content Include="TappyPlane.iOS\assets\images\background.png">
+      <Filter>TappyPlane.iOS\Supporting Files\assest\images</Filter>
+    </Content>
+    <Content Include="TappyPlane.iOS\assets\images\olcpgemobilelogo.png">
+      <Filter>TappyPlane.iOS\Supporting Files\assest\images</Filter>
+    </Content>
+    <Content Include="TappyPlane.iOS\assets\images\planes_spritesheet.png">
+      <Filter>TappyPlane.iOS\Supporting Files\assest\images</Filter>
+    </Content>
+    <Content Include="TappyPlane.iOS\assets\images\planeyellow1.png">
+      <Filter>TappyPlane.iOS\Supporting Files\assest\images</Filter>
+    </Content>
+    <Content Include="TappyPlane.iOS\assets\images\spritesheet.png">
+      <Filter>TappyPlane.iOS\Supporting Files\assest\images</Filter>
+    </Content>
+    <Content Include="TappyPlane.iOS\assets\maps\example1.city">
+      <Filter>TappyPlane.iOS\Supporting Files\assest\maps</Filter>
+    </Content>
+    <Content Include="TappyPlane.iOS\assets\maps\planes.xml">
+      <Filter>TappyPlane.iOS\Supporting Files\assest\maps</Filter>
+    </Content>
+    <Content Include="TappyPlane.iOS\assets\maps\spritesheet.xml">
+      <Filter>TappyPlane.iOS\Supporting Files\assest\maps</Filter>
+    </Content>
+    <Content Include="TappyPlane.iOS\assets\objectfiles\unitcube.obj">
+      <Filter>TappyPlane.iOS\Supporting Files\assest\objectfiles</Filter>
+    </Content>
+    <Content Include="TappyPlane.iOS\assets\sounds\engineCircular_001.mp3">
+      <Filter>TappyPlane.iOS\Supporting Files\assest\sounds</Filter>
+    </Content>
+    <Content Include="TappyPlane.iOS\assets\sounds\ItalianMom.mp3">
+      <Filter>TappyPlane.iOS\Supporting Files\assest\sounds</Filter>
+    </Content>
+    <Content Include="TappyPlane.iOS\Base.lproj\Main.storyboard">
+      <Filter>TappyPlane.iOS</Filter>
+    </Content>
+    <Content Include="TappyPlane.iOS\Images.xcassets\AppIcon.appiconset\Contents.json">
+      <Filter>TappyPlane.iOS\Images.xcassets\AppIcon.appiconset</Filter>
+    </Content>
+    <InfoPlist Include="TappyPlane.iOS\Info.plist">
+      <Filter>TappyPlane.iOS\Supporting Files\assest</Filter>
+    </InfoPlist>
+  </ItemGroup>
+</Project>

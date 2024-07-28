@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="PGEMobileEngine">
+      <UniqueIdentifier>{9e528aca-2590-4b48-bfc9-f1838f79f902}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OLCPGEX">
+      <UniqueIdentifier>{9e528aca-2590-4b48-bfc9-f1838f79f902}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PGEMobileEngine\iOSOnly">
+      <UniqueIdentifier>{9e528aca-2590-4b48-bfc9-f1838f79f902}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PGEMobileEngine\iOSOnly\EGL">
+      <UniqueIdentifier>{9e528aca-2590-4b48-bfc9-f1838f79f902}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PGEMobileEngine\iOSOnly\KHR">
+      <UniqueIdentifier>{9e528aca-2590-4b48-bfc9-f1838f79f902}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OLCUTILS">
+      <UniqueIdentifier>{f0c96f74-7d9d-49a0-91d4-8970455d1052}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)miniaudio.h">
+      <Filter>PGEMobileEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)olcPixelGameEngine_Mobile.h">
+      <Filter>PGEMobileEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)sse2neon.h">
+      <Filter>PGEMobileEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)stb_image.h">
+      <Filter>PGEMobileEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)olcPGEX_MiniAudio.h">
+      <Filter>OLCPGEX</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)EGL\egl.h">
+      <Filter>PGEMobileEngine\iOSOnly\EGL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)EGL\eglext.h">
+      <Filter>PGEMobileEngine\iOSOnly\EGL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)EGL\eglext_angle.h">
+      <Filter>PGEMobileEngine\iOSOnly\EGL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)EGL\eglplatform.h">
+      <Filter>PGEMobileEngine\iOSOnly\EGL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)EGL\Platform.h">
+      <Filter>PGEMobileEngine\iOSOnly\EGL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)KHR\khrplatform.h">
+      <Filter>PGEMobileEngine\iOSOnly\KHR</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ios_native_app_glue.h">
+      <Filter>PGEMobileEngine\iOSOnly</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)olcPGEX_Background.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)olcPGEX_Ground_Object.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)olcPGEX_PlayerObject.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)olcPGEX_Rock_Object.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)olcPGEX_Template.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)olcPGEX_Triangle.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)olcUTIL_Geometry2D.h">
+      <Filter>OLCUTILS</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)main.cpp" />
+  </ItemGroup>
+</Project>

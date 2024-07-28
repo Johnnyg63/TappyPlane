@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects Condition="'$(MSBuildVersion)' == '' Or '$(MSBuildVersion)' &lt; '16.0'">$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{9e528aca-2590-4b48-bfc9-f1838f79f902}</ItemsProjectGuid>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)EGL\egl.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)EGL\eglext.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)EGL\eglext_angle.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)EGL\eglplatform.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)EGL\Platform.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ios_native_app_glue.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)KHR\khrplatform.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)miniaudio.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)olcPGEX_Background.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)olcPGEX_Ground_Object.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)olcPGEX_MiniAudio.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)olcPGEX_PlayerObject.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)olcPGEX_Rock_Object.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)olcPGEX_Template.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)olcPGEX_Triangle.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)olcPixelGameEngine_Mobile.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)olcUTIL_Geometry2D.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)sse2neon.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)stb_image.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)main.cpp" />
+  </ItemGroup>
+</Project>

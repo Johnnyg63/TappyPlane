@@ -1,0 +1,10 @@
+com.TappyPlane.app-arm8-0 C:\Users\jgalv\source\repos\TappyPlane\TappyPlane\TappyPlane\app\build\generated\res\pngs\arm8\debug
+com.TappyPlane.app-arm8-1 C:\Users\jgalv\source\repos\TappyPlane\TappyPlane\TappyPlane\app\build\generated\res\resValues\arm8\debug
+com.TappyPlane.app-arm8-2 C:\Users\jgalv\source\repos\TappyPlane\TappyPlane\TappyPlane\app\build\generated\res\rs\arm8\debug
+com.TappyPlane.app-mergeArm8DebugResources-3 C:\Users\jgalv\source\repos\TappyPlane\TappyPlane\TappyPlane\app\build\intermediates\incremental\arm8Debug\mergeArm8DebugResources\merged.dir
+com.TappyPlane.app-mergeArm8DebugResources-4 C:\Users\jgalv\source\repos\TappyPlane\TappyPlane\TappyPlane\app\build\intermediates\incremental\arm8Debug\mergeArm8DebugResources\stripped.dir
+com.TappyPlane.app-merged_res-5 C:\Users\jgalv\source\repos\TappyPlane\TappyPlane\TappyPlane\app\build\intermediates\merged_res\arm8Debug
+com.TappyPlane.app-arm8-6 C:\Users\jgalv\source\repos\TappyPlane\TappyPlane\TappyPlane\app\src\arm8\res
+com.TappyPlane.app-arm8Debug-7 C:\Users\jgalv\source\repos\TappyPlane\TappyPlane\TappyPlane\app\src\arm8Debug\res
+com.TappyPlane.app-debug-8 C:\Users\jgalv\source\repos\TappyPlane\TappyPlane\TappyPlane\app\src\debug\res
+com.TappyPlane.app-main-9 C:\Users\jgalv\source\repos\TappyPlane\TappyPlane\TappyPlane\app\src\main\res

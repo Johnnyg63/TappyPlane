@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<payload>
+  <file path="C:\Users\jgalv\source\repos\TappyPlane\TappyPlane\OLCPGEMobile\TappyPlane.iOS.StaticLibrary\ARM64\Debug\TappyPlane.iOS.StaticLibrary.xcodeproj\project.pbxproj" changed="2024-07-28T14:58:02.812637+01:00" />
+  <file path="C:\Users\jgalv\source\repos\TappyPlane\TappyPlane\OLCPGEMobile\TappyPlane.Shared\main.cpp" changed="2024-07-28T14:56:23.6043336+01:00" />
+  <file path="C:\Users\jgalv\source\repos\TappyPlane\TappyPlane\OLCPGEMobile\TappyPlane.Shared\ios_native_app_glue.h" changed="2024-06-18T16:45:56+01:00" />
+  <file path="C:\Users\jgalv\source\repos\TappyPlane\TappyPlane\OLCPGEMobile\TappyPlane.Shared\miniaudio.h" changed="2024-06-18T15:41:34+01:00" />
+  <file path="C:\Users\jgalv\source\repos\TappyPlane\TappyPlane\OLCPGEMobile\TappyPlane.Shared\olcPGEX_Background.h" changed="2024-07-16T14:25:44.3596716+01:00" />
+  <file path="C:\Users\jgalv\source\repos\TappyPlane\TappyPlane\OLCPGEMobile\TappyPlane.Shared\olcPGEX_Ground_Object.h" changed="2024-07-02T15:11:26.6199742+01:00" />
+  <file path="C:\Users\jgalv\source\repos\TappyPlane\TappyPlane\OLCPGEMobile\TappyPlane.Shared\olcPGEX_MiniAudio.h" changed="2024-06-18T16:45:56+01:00" />
+  <file path="C:\Users\jgalv\source\repos\TappyPlane\TappyPlane\OLCPGEMobile\TappyPlane.Shared\olcPGEX_PlayerObject.h" changed="2024-07-16T14:27:40.2728398+01:00" />
+  <file path="C:\Users\jgalv\source\repos\TappyPlane\TappyPlane\OLCPGEMobile\TappyPlane.Shared\olcPGEX_Rock_Object.h" changed="2024-07-20T12:06:14.1097422+01:00" />
+  <file path="C:\Users\jgalv\source\repos\TappyPlane\TappyPlane\OLCPGEMobile\TappyPlane.Shared\olcPGEX_Template.h" changed="2024-07-01T09:14:04.5418227+01:00" />
+  <file path="C:\Users\jgalv\source\repos\TappyPlane\TappyPlane\OLCPGEMobile\TappyPlane.Shared\olcPGEX_Triangle.h" changed="2024-07-02T15:58:13.1036238+01:00" />
+  <file path="C:\Users\jgalv\source\repos\TappyPlane\TappyPlane\OLCPGEMobile\TappyPlane.Shared\olcPixelGameEngine_Mobile.h" changed="2024-06-18T15:43:28+01:00" />
+  <file path="C:\Users\jgalv\source\repos\TappyPlane\TappyPlane\OLCPGEMobile\TappyPlane.Shared\olcUTIL_Geometry2D.h" changed="2024-07-19T10:51:06.4601768+01:00" />
+  <file path="C:\Users\jgalv\source\repos\TappyPlane\TappyPlane\OLCPGEMobile\TappyPlane.Shared\sse2neon.h" changed="2024-06-18T15:41:34+01:00" />
+  <file path="C:\Users\jgalv\source\repos\TappyPlane\TappyPlane\OLCPGEMobile\TappyPlane.Shared\stb_image.h" changed="2024-06-18T15:41:34+01:00" />
+  <file path="C:\Users\jgalv\source\repos\TappyPlane\TappyPlane\OLCPGEMobile\TappyPlane.iOS.StaticLibrary\pch.h" changed="2024-07-28T14:31:34.1336259+01:00" />
+  <file path="C:\Users\jgalv\source\repos\TappyPlane\TappyPlane\OLCPGEMobile\TappyPlane.Shared\EGL\egl.h" changed="2024-06-18T15:41:34+01:00" />
+  <file path="C:\Users\jgalv\source\repos\TappyPlane\TappyPlane\OLCPGEMobile\TappyPlane.Shared\EGL\eglext.h" changed="2024-06-18T15:41:34+01:00" />
+  <file path="C:\Users\jgalv\source\repos\TappyPlane\TappyPlane\OLCPGEMobile\TappyPlane.Shared\EGL\eglext_angle.h" changed="2024-06-18T15:41:34+01:00" />
+  <file path="C:\Users\jgalv\source\repos\TappyPlane\TappyPlane\OLCPGEMobile\TappyPlane.Shared\EGL\eglplatform.h" changed="2024-06-18T15:41:34+01:00" />
+  <file path="C:\Users\jgalv\source\repos\TappyPlane\TappyPlane\OLCPGEMobile\TappyPlane.Shared\EGL\Platform.h" changed="2024-06-18T15:41:34+01:00" />
+  <file path="C:\Users\jgalv\source\repos\TappyPlane\TappyPlane\OLCPGEMobile\TappyPlane.Shared\KHR\khrplatform.h" changed="2024-06-18T15:41:34+01:00" />
+</payload>
