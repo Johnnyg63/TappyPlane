@@ -2,36 +2,36 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="TappyPlane.iOS">
-      <UniqueIdentifier>{adfc1bad-3c89-4b64-9624-ab3fa08036f3}</UniqueIdentifier>
+      <UniqueIdentifier>{fca67686-ec7d-413f-8118-c367d76f1973}</UniqueIdentifier>
     </Filter>
     <Filter Include="TappyPlane.iOS\Images.xcassets">
-      <UniqueIdentifier>{7570fa60-0512-4c83-a08e-9f37e21fb555}</UniqueIdentifier>
+      <UniqueIdentifier>{b354edb1-31a7-46b1-bc7e-e9c803291c68}</UniqueIdentifier>
       <Extensions>TappyPlane.iOS\Images.xcassets\*</Extensions>
     </Filter>
     <Filter Include="TappyPlane.iOS\Images.xcassets\AppIcon.appiconset">
-      <UniqueIdentifier>{91daab39-2f0a-445e-8ad6-beff02fd37bd}</UniqueIdentifier>
+      <UniqueIdentifier>{c95c400c-fde2-4593-bd63-95c2da68df13}</UniqueIdentifier>
       <Extensions>TappyPlane.iOS\Images.xcassets\AppIcon.appiconset\*</Extensions>
     </Filter>
     <Filter Include="TappyPlane.iOS\Supporting Files">
-      <UniqueIdentifier>{9d287582-6ad8-45c8-9980-75092021b4f1}</UniqueIdentifier>
+      <UniqueIdentifier>{06681acd-1ca5-47f8-9ff5-8a9e1888dc6a}</UniqueIdentifier>
     </Filter>
     <Filter Include="TappyPlane.iOS\Supporting Files\assest">
-      <UniqueIdentifier>{f929b749-16ff-433e-a879-43e7bcb66af3}</UniqueIdentifier>
+      <UniqueIdentifier>{5755f0fc-8193-4515-b0de-80c137bac143}</UniqueIdentifier>
     </Filter>
     <Filter Include="TappyPlane.iOS\Supporting Files\assest\images">
-      <UniqueIdentifier>{bb67f752-4842-4c04-aa9f-78d184fb3748}</UniqueIdentifier>
+      <UniqueIdentifier>{78162443-98ca-4aa9-a257-300b1e277371}</UniqueIdentifier>
       <Extensions>TappyPlane.iOS\assets\images\*</Extensions>
     </Filter>
     <Filter Include="TappyPlane.iOS\Supporting Files\assest\maps">
-      <UniqueIdentifier>{754cb3c8-2a8f-4e06-99df-39886fee7db5}</UniqueIdentifier>
+      <UniqueIdentifier>{55439818-627d-49cf-999c-27d424956953}</UniqueIdentifier>
       <Extensions>TappyPlane.iOS\assets\maps\*</Extensions>
     </Filter>
     <Filter Include="TappyPlane.iOS\Supporting Files\assest\objectfiles">
-      <UniqueIdentifier>{8663ccce-3b76-4ff5-9100-6d4e8713984a}</UniqueIdentifier>
+      <UniqueIdentifier>{68e1cf2b-ed68-48fb-b58f-38b5ba1c760f}</UniqueIdentifier>
       <Extensions>TappyPlane.iOS\assets\objectfiles\*</Extensions>
     </Filter>
     <Filter Include="TappyPlane.iOS\Supporting Files\assest\sounds">
-      <UniqueIdentifier>{7763c36e-263b-4b4e-8558-9559ecf5cce3}</UniqueIdentifier>
+      <UniqueIdentifier>{741b982c-d170-46ba-a1bb-92e2d46e5b96}</UniqueIdentifier>
       <Extensions>TappyPlane.iOS\assets\sounds\*</Extensions>
     </Filter>
   </ItemGroup>

@@ -266,16 +266,15 @@ namespace olc
 		// Now we need to set the number of rocks on the screen
 		vecCollisionTriangles.clear();
 		if (Properties.nRockCount < 0) Properties.nRockCount = 1;
-		olc::vf2d vfSetCurrentPosition;
-		vfSetCurrentPosition.x = pge->GetScreenSize().x;
-		vfSetCurrentPosition.y = pge->GetScreenSize().y - Properties.sImageInfo.vScaleSize.y;
+
 		for (int i = 0; i < Properties.nRockCount; i++)
 		{
 			Triangle collTri;
 			collTri.nRockNumber = i;
-			collTri.vfCurrentPosition = vfSetCurrentPosition;
+			collTri.vfCurrentPosition.x = pge->GetScreenSize().x + ((pge->GetScreenSize().x / Properties.nRockCount) * i);
+			collTri.vfCurrentPosition.y = pge->GetScreenSize().y - Properties.sImageInfo.vScaleSize.y;
 			vecCollisionTriangles.emplace_back(collTri);
-			vfSetCurrentPosition.x += pge->GetScreenSize().x / Properties.nRockCount;
+
 
 		}
 

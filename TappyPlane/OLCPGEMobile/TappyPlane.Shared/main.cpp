@@ -117,7 +117,7 @@ public:
         pRock->Properties.sImageInfo.vSize = { 108.0f, 238.0f };
         pRock->Properties.sImageInfo.vScale = { 1.0f, 0.8f }; 
         pRock->Properties.SCALE = olc::RockObject::NONE;
-        pRock->Properties.nRockCount = 3;
+        pRock->Properties.nRockCount = 100;
     }
 
     /* Vectors */
@@ -278,7 +278,11 @@ public:
         if (bResult == true)
         {
             // Ok we have hit the triangle
-            int test = 0;
+            pPlayer->Properties.nLives--;
+            if (pPlayer->Properties.nLives < 0)
+            {
+                // Game over!!!
+            }
 
         }
 
