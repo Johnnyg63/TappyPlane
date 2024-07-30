@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <payload>
-  <file path="C:\Users\jgalv\source\repos\TappyPlane\TappyPlane\TappyPlane.iOS.Application\TappyPlane.iOS.Application.xcodeproj\project.pbxproj" changed="2024-07-30T14:23:11.6886287+01:00" />
-  <file path="C:\Users\jgalv\source\repos\TappyPlane\TappyPlane\TappyPlane.iOS.Application\\vcreference.xcconfig" changed="2024-07-30T12:32:43.4190579+01:00" />
+  <file path="C:\Users\jgalv\source\repos\TappyPlane\TappyPlane\TappyPlane.iOS.Application\\vcreference.xcconfig" changed="2024-07-30T16:31:50.0221975+01:00" />
   <file path="C:\Users\jgalv\source\repos\TappyPlane\TappyPlane\TappyPlane.iOS.Application\TappyPlane.iOS\AppDelegate.mm" changed="2024-06-18T15:51:58+01:00" />
   <file path="C:\Users\jgalv\source\repos\TappyPlane\TappyPlane\TappyPlane.iOS.Application\TappyPlane.iOS\GameViewController.mm" changed="2024-07-28T14:31:34.5925302+01:00" />
   <file path="C:\Users\jgalv\source\repos\TappyPlane\TappyPlane\TappyPlane.iOS.Application\TappyPlane.iOS\ios_native_app_glue.cpp" changed="2024-07-28T14:31:34.6387538+01:00" />
@@ -23,5 +22,6 @@
   <file path="C:\Users\jgalv\source\repos\TappyPlane\TappyPlane\TappyPlane.iOS.Application\TappyPlane.iOS\assets\sounds\engineCircular_001.mp3" changed="2024-06-28T14:45:14.565297+01:00" />
   <file path="C:\Users\jgalv\source\repos\TappyPlane\TappyPlane\TappyPlane.iOS.Application\TappyPlane.iOS\assets\sounds\ItalianMom.mp3" changed="2024-06-28T14:45:18.777162+01:00" />
   <file path="C:\Users\jgalv\source\repos\TappyPlane\TappyPlane\TappyPlane.iOS.Application\TappyPlane.iOS\Images.xcassets\AppIcon.appiconset\Contents.json" changed="2024-06-18T15:41:36+01:00" />
-  <file path="C:\Users\jgalv\source\repos\TappyPlane\TappyPlane\TappyPlane.iOS.Application\vcreference.xcconfig" changed="2024-07-28T14:58:15.3056111+01:00" />
+  <file path="C:\Users\jgalv\source\repos\TappyPlane\TappyPlane\TappyPlane.iOS.Application\vcreference.xcconfig" changed="2024-07-30T15:57:25.3123292+01:00" />
+  <file path="C:\Users\jgalv\source\repos\TappyPlane\TappyPlane\TappyPlane.iOS.Application\TappyPlane.iOS.Application.xcodeproj\project.pbxproj" changed="2024-07-30T16:29:59.2846363+01:00" />
 </payload>

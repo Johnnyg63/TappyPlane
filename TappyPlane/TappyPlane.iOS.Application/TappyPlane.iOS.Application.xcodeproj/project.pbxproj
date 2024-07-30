@@ -376,6 +376,7 @@
 					VC_ProjectGuid = AAA1DEF2DE144A328AE414A2D23A5DB6;
 					VC_ProjectReferences = {
 						"44cc818c-d348-4436-a1d5-e1a323c23980" = "..\\OLCPGEMobile\\TappyPlane.iOS.StaticLibrary\\TappyPlane.iOS.StaticLibrary.vcxproj";
+						44cc818c-d348-4436-a1d5-e1a323c23980 = ../OLCPGEMobile/TappyPlane.iOS.StaticLibrary/TappyPlane.iOS.StaticLibrary.vcxproj;
 					};
 				};
 			};

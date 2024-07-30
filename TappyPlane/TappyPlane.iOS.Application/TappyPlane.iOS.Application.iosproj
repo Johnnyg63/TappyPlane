@@ -384,7 +384,11 @@
     <Content Include="TappyPlane.iOS\Images.xcassets\AppIcon.appiconset\Contents.json" />
     <InfoPlist Include="TappyPlane.iOS\Info.plist" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\OLCPGEMobile\TappyPlane.iOS.StaticLibrary\TappyPlane.iOS.StaticLibrary.vcxproj">
+      <Project>{44cc818c-d348-4436-a1d5-e1a323c23980}</Project>
+    </ProjectReference>
+  </ItemGroup>
   <ItemGroup>
     <FrameworkReference Include="System\Library\Frameworks\AudioToolbox.framework">
       <SourceTree>SDKROOT</SourceTree>

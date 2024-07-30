@@ -117,7 +117,7 @@ public:
         pRock->Properties.sImageInfo.vSize = { 108.0f, 238.0f };
         pRock->Properties.sImageInfo.vScale = { 1.0f, 0.8f }; 
         pRock->Properties.SCALE = olc::RockObject::NONE;
-        pRock->Properties.nRockCount = 100;
+        pRock->Properties.nRockCount = 5;
     }
 
     /* Vectors */
@@ -253,6 +253,9 @@ public:
 
         pGround->DrawDecal();
 
+        std::string strLives = "Lives: " + std::to_string(pPlayer->Properties.nLives);
+        DrawStringDecal({ 50.0f, 100.0f }, strLives, olc::BLACK);
+
         CollisionManager();
 
         return true;
@@ -278,13 +281,20 @@ public:
         if (bResult == true)
         {
             // Ok we have hit the triangle
-            pPlayer->Properties.nLives--;
+            if (!pPlayer->Properties.bIsGodMode)
+            {
+                pPlayer->Properties.nLives--;
+                pPlayer->Properties.bIsGodMode = true;
+            }
+                
             if (pPlayer->Properties.nLives < 0)
             {
                 // Game over!!!
             }
 
         }
+
+        
 
     }
 

@@ -93,20 +93,24 @@ namespace olc
             std::string strName = "GameObject"; // Object name. Default "GameObject"
             int8_t nPlayerNumber = 0;	        // Object number, Default 0 i.e. Player 1 , Player 2 etc
 
-            uint32_t nLives = 3;	        // Lives, Default 3
+            int32_t nLives = 3;	        // Lives, Default 3
             uint32_t nMaxFrames = 3;        // Max number of frames, Default 0, this means we are not anitmating this object
             uint32_t nCurrentFrame = 0;     // Stores the number of the last frame displayed
             uint32_t nCurrentFPS = 0;       // Stores the current Engine FPS
 
-            float fFrameChangeRate = 0.0f;  // This value will auto calcuate the rate of change depending on the current FPS
-            float fFrameElapsedTime = 0.0f; // Keeps track of the time pass since the last frame change
-            float fFramesPerSecound = 1.0f; // Set the number of times the frame is to change per second 
+            bool bIsGodMode = false;            // Stores if the player is in God Mode, Default: false
+            bool bIsVisiable = true;            // Enable/Disable visiabilty 
+            float fGodModeTimeOutSeconds = 10.0f;  // Stores the timeout for God mode, Default: 3000ms
+            float fGodModeFlashSeconds = 0.2f;     // Flash timer for when the player is in God Mode
+ 
+            float fFrameChangeRate = 0.0f;      // This value will auto calcuate the rate of change depending on the current FPS
+            float fFrameElapsedTime = 0.0f;     // Keeps track of the time pass since the last frame change
+            float fFramesPerSecound = 1.0f;     // Set the number of times the frame is to change per second, Default: 1.0f
 
             olc::vf2d vfVelocity = { 0.0f, 0.0f };  // Velocity, vfsd {x, y}, Default: {0.0f, 0.0f}
 
             olc::vi2d viStartPosition = { 0,0 };	        // Start Position {x,y} (Int32_t), Default {0,0}
-            //olc::vf2d vfStartPosition = { 0.0f, 0.0f };	    // Start Positon POS {x,y} (float), Default {0.0f,0.0f}, recommended for decals
-
+           
             olc::vi2d viPosition = { 0,0 };	        // Player current POS {x,y} (Int32_t), Default {0,0}
             olc::vf2d vfPosition = { 0.0f,0.0f };	// Player current POS {x,y} (float), Default {0.0f,0.0f}, recommended for decals
 
@@ -147,6 +151,8 @@ namespace olc
             bool bIsEmptySprite = false;
             bool bisSpriteSheet = false;
             std::string strImagePath = "";
+            float fGodModeTimer = 0.0f;         // Use to timeout GodMode when the timeout is reached
+            float fGodModeFlashTimer = 0.0f;    // Used to flash the Decal while in God mode
     };
 
 }
@@ -316,6 +322,28 @@ namespace olc
 
     void PlayerObject::OnAfterUserUpdate(float fElapsedTime)
     {
+        if (Properties.bIsGodMode)
+        {
+            fGodModeFlashTimer += fElapsedTime;
+            if (fGodModeFlashTimer > Properties.fGodModeFlashSeconds)
+            {
+                Properties.bIsVisiable = !Properties.bIsVisiable;
+                fGodModeFlashTimer = 0.0f;
+            }
+
+            fGodModeTimer += fElapsedTime;
+            if (fGodModeTimer > Properties.fGodModeTimeOutSeconds)
+            {
+                Properties.bIsVisiable = true;
+                Properties.bIsGodMode = false;
+            }
+
+        }
+        else
+        {
+            fGodModeFlashTimer = 0.0f;
+            fGodModeTimer = 0.0f;
+        }
     }
 
     void PlayerObject::DrawDecal()
@@ -323,7 +351,7 @@ namespace olc
         if (Properties.nMaxFrames < 1)
         {
             // Ok we are just drawing a decal
-            pge->DrawDecal(Properties.vfPosition, Properties.decImage);
+            if(Properties.bIsVisiable) pge->DrawDecal(Properties.vfPosition, Properties.decImage);
         }
         else
         {
@@ -344,7 +372,7 @@ namespace olc
             Properties.sprImageInfo.vSource = vfSourcePos;
             Properties.sprImageInfo.vSize = vfSize;
 
-            pge->DrawPartialDecal(Properties.vfPosition, Properties.decSpriteSheet, vfSourcePos, vfSize, Properties.sprImageInfo.vScale, Properties.sprImageInfo.pxTint);
+            if (Properties.bIsVisiable) pge->DrawPartialDecal(Properties.vfPosition, Properties.decSpriteSheet, vfSourcePos, vfSize, Properties.sprImageInfo.vScale, Properties.sprImageInfo.pxTint);
 
             // Now that we have our Player position we need to setup our collision circle
             // NOTE: The Decal World and Sprite World do not aline, you made need to play with the values to get it perfect
@@ -368,7 +396,7 @@ namespace olc
         if (Properties.nMaxFrames < 1)
         {
             // Ok we are just drawing a decal
-            pge->DrawSprite(Properties.viPosition, Properties.sprImage);
+            if (Properties.bIsVisiable) pge->DrawSprite(Properties.viPosition, Properties.sprImage);
         }
         else
         {
@@ -390,7 +418,7 @@ namespace olc
             Properties.sprImageInfo.vSource = viSourcePos;
             Properties.sprImageInfo.vSize = viSize;
 
-            pge->DrawPartialSprite(Properties.viPosition, Properties.sprSpriteSheet, viSourcePos, viSize);
+            if (Properties.bIsVisiable) pge->DrawPartialSprite(Properties.viPosition, Properties.sprSpriteSheet, viSourcePos, viSize);
 
         }
     }
